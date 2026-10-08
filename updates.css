@@ -1,4 +1,16 @@
 /* Seven-round edition. */
+.creator{font-size:11px;text-align:center;color:var(--muted);margin:16px 0 0}
+header a.full-brand{font-family:'Pixelify Sans',monospace;font-size:clamp(21px,6vw,29px);letter-spacing:-1px;color:var(--yellow);text-shadow:2px 2px #060a18}
+header a.full-brand span{color:#fff1b1}
+#quiz-screen{padding-top:20px}
+#quiz-screen .progress{margin:12px 0 22px}
+#choices{margin-top:18px;align-items:stretch}
+#choices .choice{min-height:0;height:auto}
+#choices .choice p{margin:15px 0 18px;overflow-wrap:anywhere}
+#choices .select-line{border-top:0;padding-top:0;justify-content:center}
+#quiz-screen .choice-hint{margin-top:20px}
+#quiz-screen #next{margin-top:17px}
+.candidate .circle{background:#35432f url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2296%22%20height%3D%2296%22%20viewBox%3D%220%200%2096%2096%22%20shape-rendering%3D%22crispEdges%22%3E%3Cpath%20fill%3D%22%23576348%22%20d%3D%22M0%200h96v96H0z%22%2F%3E%3Cpath%20fill%3D%22%2326362b%22%20d%3D%22M0%208h20v8h16v16H24v8H0zM56%200h24v16h16v16H72V24H56zM40%2048h24v8h16v24H64v16H40V80H24V64h16z%22%2F%3E%3Cpath%20fill%3D%22%238b8760%22%20d%3D%22M24%200h24v16H32v8H16V8h8zM72%2036h24v16H84v12H68V48H56V36zM0%2056h16v16h12v16H12v8H0z%22%2F%3E%3Cpath%20fill%3D%22%23161f1c%22%20d%3D%22M40%2024h16v8h8v16H48v8H32V40h8zM80%2072h16v24H72V84h8z%22%2F%3E%3C%2Fsvg%3E%0A') center/80px 80px;border-color:#a5ad80;color:#fffbea;text-shadow:2px 2px #000,-1px -1px #000}
 .title-screen{padding-top:38px}
 .title-subtitle{font-size:19px;line-height:1.55;max-width:370px;margin:22px auto 0;color:#f6f1e1;font-weight:500}
 .urna-scene{position:relative;display:flex;align-items:center;justify-content:center;height:300px;margin:18px -6px 15px;perspective:700px}
